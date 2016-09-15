@@ -2,7 +2,6 @@
 
 ProductName Suprasm
 ProductMainSrcFile main.asm
-ProductSrcFiles
 ProductSrcDir src
 
 ProductOutFilename suprasm
