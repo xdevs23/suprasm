@@ -1,0 +1,33 @@
+#!/bin/bash
+
+export PRODUCT_NAME=""
+export PRODUCT_MAIN_SRC_FILE=""
+export PRODUCT_SRC_FILES=""
+export PRODUCT_SRC_DIR=""
+export PRODUCT_OUT_FILENAME=""
+export PRODUCT_OUT="$OUT"
+
+function ProductName() {
+    export PRODUCT_NAME="$@"
+}
+
+function ProductMainSrcFile() {
+    export PRODUCT_MAIN_SRC_FILE="$@"
+}
+
+function ProductSrcFiles() {
+    export PRODUCT_SRC_FILES="$@"
+}
+
+function ProductSrcDir() {
+    export PRODUCT_SRC_DIR="$@"
+}
+
+function ProductOutFilename() {
+    export PRODUCT_OUT_FILENAME="$@"
+}
+
+function ProductOut() {
+    export PRODUCT_OUT="$@"
+    export OUT="$PRODUCT_OUT"
+}
