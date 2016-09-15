@@ -18,7 +18,7 @@ checkcmds() {
   done
 }
 
-checkcmds bash gcc nasm ld make source
+checkcmds bash gcc nasm ld make source pwd
 
 echo ""
 echo "Done."
